@@ -1,0 +1,16 @@
+body{
+background-color: bisque; 
+color: rgb(4, 128, 0);
+} 
+h1 {
+    color: rgb(255, 0, 0);
+}
+p{
+    color: rgb(76, 212, 22);
+}
+.food{
+    text-decoration: underline;
+}
+.family{
+    font-weight: bold;
+}
