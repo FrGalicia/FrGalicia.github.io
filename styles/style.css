@@ -8,11 +8,8 @@
     color: white;
 
 }
-#one{
-    border-color:green;
-    border-width: 5px;
-}
-#three{
+
+.one-and-three{
     border-color:green;
     border-width: 5px;
 }
