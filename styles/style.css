@@ -1,70 +1,10 @@
-body{
-background-color: black; 
-color: rgb(4, 128, 0);
-} 
-h1 {
-    color: rgb(255, 0, 0);
-    text-decoration: underline;
+.container{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
 }
-h2{
-    color: rgb(255, 0, 0);
-    text-decoration: underline;   
-}
-p{
-    color: rgb(76, 212, 22);
-}
-img{
-    height: 100px;
-    width: 100px;
-}
-.food{
-    text-decoration: underline;
-}
-.family{
-    font-weight: bold;
-}
-.something{
-    color: red;
-}
-.ok{
-    color:yellow;
-}
-.duh{
-    color: green;
-}
-.bro{
-    color:orange;
-}
-.GG{
-    color:purple;
-}
-.lol{
-    color: pink;
-}
-.fr{
-    color: gold;
-}
-.he{
-    color:gray;
-}
-.red{
-    color:red;
-}
-.orange{
-    color:orange;
-}
-.yellow{
-    color:yellow;
-}
-.green{
-    color:green
-}
-.blue{
-    color:blue;
-}
-.indigo{
-    color:indigo;
-}
-.violet{
-    color:violet;
+#two{
+    background-color: red;
+    color: white;
+
 }
