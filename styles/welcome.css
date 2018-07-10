@@ -1,12 +1,13 @@
 body{
     text-align: center;
-    background: linear-gradient(Red, yellow, green);
+    background: radial-gradient(circle, white, pink, purple, violet,Red, yellow, green);
  
 }
 img{
     width: 300px;
 }
 p{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
 }
