@@ -1,6 +1,7 @@
 body{
     text-align: center;
-    background-color: pink;
+    background: linear-gradient(yellow, red);
+ 
 }
 img{
     width: 300px;
