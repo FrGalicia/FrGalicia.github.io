@@ -1,9 +1,9 @@
 body{
     text-align: center;
     background: radial-gradient(circle, white, pink, purple, violet,Red, yellow, green);
- 
+//  background: radial-gradient(circle, white, black);
 }
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,7 @@ ul li {
     height: 100px;
 }
 ul li a {
+    display: block;
     text-decoration: none;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
