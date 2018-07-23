@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Presentation</title>    
+<link rel="stylesheet" type="text/css" href="pancho.css" /> 
+ <!-- link to the CSS files for this menu type -->
+ <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/css/superfish.css">
+ <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/css/superfish-navbar.css">
+ <!-- source jQuery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <!-- source Superfish -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/js/superfish.js"></script>
+</head>
+<body>
+    <ul class="sf-menu sf-navbar sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+            <li>
+                <a href="#" class="sf-with-ul">About us</a>
+                <ul style="display: block;">
+                    <li><a href="https://frgalicia.github.io">Francisco G</a></li>
+                    <li><a href="https://justinls12.github.io">Justin L</a></li>
+                    <li><a href="https://antounmichael.github.io">Michael A</a></li>
+                   
+                </ul>
+            </li>
+            <li class="sf-breadcrumb">
+                <a href="#" class="sf-with-ul">projects</a>
+                <ul style="display: block;">
+                    <li><a href="https://justinls12.github.io/ucsf/smartmirror">Smart Mirror</a></li>
+                           
+                 
+<!-- initialise Superfish -->
+<script>
+	jQuery(document).ready(function(){
+		jQuery('ul.sf-menu').superfish({
+			pathClass:	'current'
+		});
+	});
+</script>
+</body>
+</html>
